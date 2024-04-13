@@ -13,8 +13,7 @@ function Header() {
           </h2>
           <br />
           <p className="header-text fs-18 fw-3 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nemo ipsa iusto iste 
-          </p>
+A search website providing book details and ratings, facilitating easy access to content available in libraries and online.          </p>
           <SearchForm />
 
 
