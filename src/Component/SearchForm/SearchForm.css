@@ -1,0 +1,45 @@
+.search-form {
+    width: 100%;
+    min-width: 680px;
+}
+
+.search-form-elem {
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.8rem;
+
+}
+
+.search-form-elem .form-control {
+    font-size: 2rem;
+    padding: .6rem;
+}
+
+.search-form-elem .form-control::placeholder {
+    opacity: .8;
+}
+
+@media screen and (max-width: 800px) {
+    .search-form {
+        width: 100%;
+        min-width: 80%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .search-form-elem {
+        padding: 1.4rem 1.5rem;
+        border-radius: 3.8rem;
+
+    }
+
+    .search-form-elem .form-control {
+        font-size: 1.5rem;
+        padding: 0rem;
+    }
+
+
+
+
+}
